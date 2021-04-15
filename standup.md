@@ -1,0 +1,22 @@
+Long Tang - 20xx/xx/xx
+
+- What did I work on yesterday ?
+    - [ ]   ss
+    - [ ]   ss
+    - [ ]   ss
+    - [ ]   ss
+- What am I working on today?
+    - ss
+    - ss
+    - ss
+    - ss
+- What issues are blocking me?
+    - ss
+    - ss
+    - ss
+    - ss
+- Brief take-away
+    - ss
+    - ss
+    - ss
+    - ss 
