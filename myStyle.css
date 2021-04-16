@@ -6,70 +6,7 @@
   }
 }
 
-main /*The style of main*/
-{
-    font-size: 15px;
-    color: red;
-}
-header
-{
-    text-align:center;
-    padding:5px;
-    width: auto;
-    height: auto;	
-    color:rgb(228, 25, 52); 
-}
-nav 
-{
-    line-height:30px;
-    background-color:#8f5737;
-    color:white;
-    height:300vh;
-    width:2in;
-    float:right;
-    padding:5px;	      
-}
-body
-{
-    font-family: 'Orelega One' ;
-    font-size: 20px;
-}
-section 
-{
-    background-color: rgb(167, 148, 107);
-    color:rgb(10, 10, 10);
-    width: 100vw;/*3200px;*/
-    padding:0.265cm;
-    font-size: 20px;	 	  
-}
-footer 
-{
-    background-color:hsl(120, 100%, 0%);
-    color:white;
-    clear:both;
-    text-align:center;
-    padding:25px; 	 
-}
-details
-{
-    background-color: rgb(10, 10, 10);
-    color:rgb(10, 186, 240);
-    float:right;
-    width: 200px;
-    padding: 10px;
-}
-a:hover
-{
-    color:blue;
-}
-a:active
-{
-    color:red;
-}
-div 
-{
-    font-size: 0.75em;
-}
+/*Class selector*/
 .listBox
 {
     width: 400px;
@@ -157,3 +94,126 @@ div
   padding: 20px 0;
   font-size: 15px;
 }
+
+/*ID selector*/
+#title
+{
+    font-size: 50px;
+    text-align: center;
+}
+
+/*Universal selector*/
+*
+{text-shadow: 2px 2px 5px rgb(104, 167, 209);}
+
+/*Element selector*/
+main /*The style of main*/
+{
+    font-size: 15px;
+    color: red;
+}
+header 
+{
+    text-align:center;
+    padding:5px;
+    width: auto;
+    height: auto;	
+    color:rgb(228, 25, 52); 
+}
+nav 
+{
+    line-height:30px;
+    background-color:#8f5737;
+    color:white;
+    height:300vh;
+    width:2in;
+    float:right;
+    padding:5px;	      
+}
+section 
+{
+    background-color: rgb(167, 148, 107);
+    color:rgb(10, 10, 10);
+    width: 100vw;/*3200px;*/
+    padding:0.265cm;
+    font-size: 20px;	 	  
+}
+footer 
+{
+    background-color:hsl(120, 100%, 0%);
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:25px; 	 
+}
+details
+{
+    background-color: rgb(10, 10, 10);
+    color:rgb(10, 186, 240);
+    width: 100%;
+    padding: 10px;
+}
+div 
+{
+    font-size: 0.75em;
+}
+
+/*Attribute Selector*/
+a[target="_blank"]
+{
+    background-color: rgb(83, 139, 158);
+}
+
+/* Pseudo-class Selector */
+a:hover
+{
+    color:blue;
+}
+a:active
+{
+    color:red;
+}
+
+/*Selector List*/
+body,p
+{
+    font-family: 'Orelega One' ;
+    font-size: 20px;
+}
+
+/*Combinators */
+
+/*Descendant Combinator (element element)*/
+details p
+{
+    background-color: white;
+}
+
+/*Child Combinator (element > element)*/
+nav > p 
+{
+    text-align: center;
+}
+
+/*Adjacent sibling combinator (element + element)*/
+nav + p
+{
+    text-decoration: teal;
+}
+
+/*General sibling combinator (element ~ element)*/
+nav ~ p
+{
+    text-align: start;
+}
+
+/*Combining Two Selectors (element.class)*/
+detail.center
+{
+    text-align: center;
+}
+
+
+
+
+
